@@ -16,9 +16,25 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+
+
+# Specify name of a built-in theme
+THEME = "pelican-clean-blog"
+
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
+
+
+SITESUBTITLE = "Subtitle of the site...."
+
+COLOR_SCHEME_CSS = 'monokai.css'

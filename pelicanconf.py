@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Ricardo'
 SITENAME = 'rb_dev'
-SITEURL = ''
+SITEURL = 'http://spritkopf.github.io'
+RELATIVE_URLS = True
 
 PATH = 'content'
 
