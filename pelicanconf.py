@@ -10,7 +10,7 @@ RELATIVE_URLS = True
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
-LOCALE = ('usa',  # On Windows
+LOCALE = ('en_US',  # On Windows
     'en_US',     # On Unix/Linux
     )
 
@@ -48,6 +48,9 @@ MENUITEMS = (('Archives', '/archives.html'),
 
 
 
-SITESUBTITLE = "Subtitle of the site...."
+SITESUBTITLE = "Various electronics projects for my convenience"
 
 COLOR_SCHEME_CSS = 'monokai.css'
+
+STATIC_PATHS = ['static', 'images']
+HEADER_COVER = "static/site_header.jpg"
